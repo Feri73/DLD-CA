@@ -1,0 +1,10 @@
+module Q6_Shifter(input A,B,C,D,i,j,k,l, output W,X,Y,Z);
+  wire Ai,Bj,Ck,Dl;
+  wire Bi,Cj,Dk;
+  wire Ci,Dj;
+  and (Ai,A,i),(Bj,B,j),(Ck,C,k),(Dl,D,l);
+  and (Bi,B,i),(Cj,C,j),(Dk,D,k);
+  and (Ci,C,i),(Dj,D,j);
+  and (Z,D,i);
+  or (W,Ai,Bj,Ck,Dl),(X,Bi,Cj,Dk),(Y,Ci,Dj);
+endmodule
