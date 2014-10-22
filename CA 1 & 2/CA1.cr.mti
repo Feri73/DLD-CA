@@ -5,6 +5,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Q5_AO
 
+} {} {}} C:/altera/13.0sp1/Q7-Shifter-5.v {1 {vlog -work work C:/altera/13.0sp1/Q7-Shifter-5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Q7_Shifter_5
+
+Top level modules:
+	Q7_Shifter_5
+
 } {} {}} C:/altera/13.0sp1/Q2-AO-Test.v {1 {vlog -work work C:/altera/13.0sp1/Q2-AO-Test.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Q2_AO_Test
@@ -82,6 +89,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Q8_Shifter
 
+} {} {}} C:/altera/13.0sp1/Q10-Shifter.v {1 {vlog -work work C:/altera/13.0sp1/Q10-Shifter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Q10_Shifter
+
+Top level modules:
+	Q10_Shifter
+
 } {} {}} C:/altera/13.0sp1/Q9-Shifter.v {1 {vlog -work work C:/altera/13.0sp1/Q9-Shifter.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Q9_Shifter
@@ -96,13 +110,6 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Q11_Shifter
 
-} {} {}} C:/altera/13.0sp1/Q12-Shifter_Test.v {1 {vlog -work work C:/altera/13.0sp1/Q12-Shifter_Test.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Q12_Shifter_Test
-
-Top level modules:
-	Q12_Shifter_Test
-
 } {} {}} C:/altera/13.0sp1/Q1-AO.v {1 {vlog -work work C:/altera/13.0sp1/Q1-AO.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Q1_AO
@@ -110,11 +117,25 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Q1_AO
 
+} {} {}} C:/altera/13.0sp1/Q7-Shifter-1.v {1 {vlog -work work C:/altera/13.0sp1/Q7-Shifter-1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Q7_Shifter_1
+
+Top level modules:
+	Q7_Shifter_1
+
 } {} {}} C:/altera/13.0sp1/Q3-AO.v {1 {vlog -work work C:/altera/13.0sp1/Q3-AO.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Q3_AO
 
 Top level modules:
 	Q3_AO
+
+} {} {}} C:/altera/13.0sp1/Q7-Shifter-3.v {1 {vlog -work work C:/altera/13.0sp1/Q7-Shifter-3.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Q7_Shifter_3
+
+Top level modules:
+	Q7_Shifter_3
 
 } {} {}}

@@ -8,13 +8,3 @@ module Q9_Shifter(input [3:0] D,input [3:0] N, output [3:0] W);
   and (W[0],D[0],N[3]);
   or (W[3],W0J[0],W0J[1],W0J[2],W0J[3]),(W[2],W1J[0],W1J[1],W1J[2]),(W[1],W2J[0],W2J[1]);
 endmodule
-module Q6_Shifter(input A,B,C,D,i,j,k,l, output W,X,Y,Z);
-  wire Ai,Bj,Ck,Dl;
-  wire Bi,Cj,Dk;
-  wire Ci,Dj;
-  and (Ai,A,i),(Bj,B,j),(Ck,C,k),(Dl,D,l);
-  and (Bi,B,i),(Cj,C,j),(Dk,D,k);
-  and (Ci,C,i),(Dj,D,j);
-  and (Z,D,i);
-  or (W,Ai,Bj,Ck,Dl),(X,Bi,Cj,Dk),(Y,Ci,Dj);
-endmodule

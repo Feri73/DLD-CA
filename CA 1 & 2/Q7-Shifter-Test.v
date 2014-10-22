@@ -5,14 +5,10 @@ module Q7_Shifter_Test();
   Q7_Shifter_1 uut1(A,B,C,D,i,j,k,l,W1,X1,Y1,Z1);
   Q7_Shifter_3 uut3(A,B,C,D,i,j,k,l,W3,X3,Y3,Z3);
   Q7_Shifter_5 uut5(A,B,C,D,i,j,k,l,W5,X5,Y5,Z5);
-  wire[3:0] d;
-  wire[3:0] n;
   wire[3:0] w;
-  assign  d[0]=D; assign  d[1]=C; assign  d[2]=B;assign  d[3]=A;
-  assign    n[0]=l;assign  n[1]=k;assign  n[2]=j;assign  n[3]=i;
   assign  W9=w[3];assign  X9=w[2];assign  Y9=w[1];assign  Z9=w[0];
   Q8_Shifter uut8(A,B,C,D,i,j,k,l,W8,X8,Y8,Z8);
-  Q9_Shifter uut9(d,n,w);
+  Q9_Shifter uut9({A,B,C,D},{l,k,j,i},w);
   initial begin
     i=0;
     j=0;
