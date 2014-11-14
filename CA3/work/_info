@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vBarel
+Z1 Ih_ZASHHTT`KUF;AIG`N_b0
+Z2 V_D_eHKb0W[BB4]W5XYlEh1
+Z3 dF:\Verilog Projects\DLD-CA\CA3
+Z4 w1415967990
+Z5 8F:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter.v
+Z6 FF:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter.v
+L0 20
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|F:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter.v|
+Z9 o-work work -O0
+Z10 n@barel
+Z11 !s100 O70mE9<<Mgj0]G_KV>fV_2
+Z12 !s108 1415967997.299000
+Z13 !s107 F:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vQ1_Barrel_Shifter
+Z14 IW3ebLP;SZd=c0KT]3HN030
+Z15 VjD1;T2KEz[lcLfYGRUa;g3
+R3
+Z16 w1415971972
+R5
+R6
+L0 1
+R7
+r1
+31
+R8
+R9
+Z17 n@q1_@barrel_@shifter
+Z18 !s100 jlGk2U]SjUT3S9[hAR9bi3
+Z19 !s108 1415971975.491000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vQ1_Barrel_Shifter_Test
+Z20 !s100 =mM7SRbDimcld?TT4hmOP3
+Z21 IL<^^Fl@aV4m3`dDilX^<V2
+Z22 VJEdIkWD[J2C>WmQ2R@W081
+R3
+Z23 w1415214176
+Z24 8F:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter_Test.v
+Z25 FF:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter_Test.v
+L0 1
+R7
+r1
+31
+Z26 !s90 -reportprogress|300|-work|work|F:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter_Test.v|
+R9
+Z27 n@q1_@barrel_@shifter_@test
+Z28 !s108 1415971975.555000
+Z29 !s107 F:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter_Test.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vQ2_ALU
+Z30 !s100 h7In@m]XXlQ2Caam9NSY@1
+Z31 IC:Eb989kKjcezG1XdR@Qc1
+Z32 V6cXffi]M4F7WbD?^CWFHf1
+R3
+Z33 w1415290899
+Z34 8F:/Verilog Projects/DLD-CA/CA3/Q2_ALU.v
+Z35 FF:/Verilog Projects/DLD-CA/CA3/Q2_ALU.v
+L0 1
+R7
+r1
+31
+Z36 !s90 -reportprogress|300|-work|work|F:/Verilog Projects/DLD-CA/CA3/Q2_ALU.v|
+R9
+Z37 n@q2_@a@l@u
+!i10b 1
+!s85 0
+Z38 !s108 1415971975.617000
+Z39 !s107 F:/Verilog Projects/DLD-CA/CA3/Q2_ALU.v|
+!s101 -O0
+vQ3_ALU_Test
+!i10b 1
+Z40 !s100 HWkBBKJPE?97l9D4an=nJ3
+Z41 I`7_UTH`62ToDUXB3HWh?j2
+Z42 VmgVYnEHJWaG4T0Zf9gK?K3
+R3
+Z43 w1415291249
+Z44 8F:/Verilog Projects/DLD-CA/CA3/Q3_ALU_Test.v
+Z45 FF:/Verilog Projects/DLD-CA/CA3/Q3_ALU_Test.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1415971975.681000
+!s107 F:/Verilog Projects/DLD-CA/CA3/Q3_ALU_Test.v|
+Z46 !s90 -reportprogress|300|-work|work|F:/Verilog Projects/DLD-CA/CA3/Q3_ALU_Test.v|
+!s101 -O0
+R9
+Z47 n@q3_@a@l@u_@test

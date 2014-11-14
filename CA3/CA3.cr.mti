@@ -1,0 +1,22 @@
+{F:/Verilog Projects/DLD-CA/CA3/Q3_ALU_Test.v} {1 {vlog -work work {F:/Verilog Projects/DLD-CA/CA3/Q3_ALU_Test.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Q3_ALU_Test
+
+Top level modules:
+	Q3_ALU_Test
+
+} {} {}} {F:/Verilog Projects/DLD-CA/CA3/Q2_ALU.v} {1 {vlog -work work {F:/Verilog Projects/DLD-CA/CA3/Q2_ALU.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Q2_ALU
+
+Top level modules:
+	Q2_ALU
+
+} {} {}} {F:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter_Test.v} {1 {vlog -work work {F:/Verilog Projects/DLD-CA/CA3/Q1_Barrel_Shifter_Test.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Q1_Barrel_Shifter_Test
+
+Top level modules:
+	Q1_Barrel_Shifter_Test
+
+} {} {}}

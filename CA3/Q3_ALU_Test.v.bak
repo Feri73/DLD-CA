@@ -1,0 +1,47 @@
+module Q3_ALU_Test();
+  reg signed[7:0] A;
+  reg signed[7:0] B;
+  reg[4:0] S;
+  wire signed[7:0] R;
+  wire n,z,e,of,co;
+  reg si,ci;
+  Q2_ALU alu(A,B,S,si,ci,R,n,z,of,e,co);
+  initial begin
+    A=8'b10111010;
+    B=8'b10101110;
+    S=5'd0;
+    ci=1'b1;
+    si=1'b1;
+    #100 S=5'd1;
+    #100 S=5'd2;
+    #100 S=5'd3;
+    #100 S=5'd4;
+    #100 S=5'd5;// $display("at time %t: R=A>>5:%d R:%d A:%d\n",$time,A>>5,R,A);
+    #100 S=5'd6;// $display("at time %t: R=A>>6:%d R:%d A:%d\n",$time,A>>6,R,A);
+    #100 S=5'd7;// $display("at time %t: R=A>>7:%d R:%d A:%d\n",$time,A>>7,R,A);
+    #100 S=5'd8;// $display("at time %t: R=A>0 R:%d A:%d\n",$time,R,A);
+    #100 S=5'd9;// $display("at time %t: R=A>1 R:%d A:%d\n",$time,R,A);
+    #100 S=5'd10;// $display("at time %t: R=A>2 R:%d A:%d\n",$time,R,A);
+    #100 S=5'd11;// $display("at time %t: R=A>3 R:%d A:%d\n",$time,R,A);
+    #100 S=5'd12;// $display("at time %t: R=A>4 R:%d A:%d\n",$time,R,A);
+    #100 S=5'd13;// $display("at time %t: R=A>5 R:%d A:%d\n",$time,R,A);
+    #100 S=5'd14;// $display("at time %t: R=A>6 R:%d A:%d\n",$time,R,A);
+    #100 S=5'd15;// $display("at time %t: R=A>7 R:%d A:%d\n",$time,R,A);
+    #100 S=5'd16;// $display("at time %t: R=A+B+ci:%d R:%d A:%d B:%d ci:%d\n",$time,A+B+ci,R,A,B,ci);
+    #100 S=5'd17;// $display("at time %t: R=MAX(A,B) R:%d A:%d B:%d\n",$time,R,A,B);
+    #100 S=5'd18;// $display("at time %t: R=MIN(A,B) R:%d A:%d B:%d\n",$time,R,A,B);
+    #100 S=5'd19;// $display("at time %t: R=A*1.75:%d R:%d A:%d\n",$time,A*1.75,R,A);
+    #100 S=5'd20;// $display("at time %t: R=A+B+B:%d R:%d A:%d B:%d\n",$time,A+B+B,R,A,B);
+    #100 S=5'd21;// $display("at time %t: R=A-B:%d R:%d A:%d B:%d\n",$time,A-B,R,A,B,ci);
+    #100 S=5'd22;// $display("at time %t: R=ABS(A) R:%d A:%d\n",$time,R,A);
+    #100 S=5'd23;// $display("at time %t: R=A&B:%d R:%d A:%d B:%d\n",$time,A&B,R,A,B);
+    #100 S=5'd24;// $display("at time %t: R=A|B:%d R:%d A:%d B:%d\n",$time,A|B,R,A,B);
+    #100 S=5'd25;// $display("at time %t: R=A^B:%d R:%d A:%d B:%d\n",$time,A^B,R,A,B);
+    #100 S=5'd26;// $display("at time %t: R=~A:%d R:%d A:%d\n",$time,~A,R,A);
+    #100 S=5'd27;// $display("at time %t: R=A[3:0]*B[3:0]:%d R:%d A[3:0]:%d B[3:0]:%d\n",$time,A[3:0]*B[3:0],R,A[3:0],B[3:0]);
+    #100 B=8'd10111010;
+    #100 B=8'd01000110;
+    #100 B=8'd00111011;S=5'd21;
+    #100 $stop;
+  end
+endmodule
